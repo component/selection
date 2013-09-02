@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selection</title>
+  <style>
+    body {
+      padding: 100px;
+    }
+  </style>
+</head>
+<body>
+  <section contenteditable="true">
+  <p>Lorem ipsum dolor sit amet, consectetur <em>adipiscing</em> elit. Phasellus non vulputate lorem, eget bibendum metus. Mauris vestibulum est ut blandit accumsan. Integer feugiat condimentum quam. Mauris commodo turpis et justo auctor, sit amet suscipit ipsum dignissim. Vivamus faucibus aliquet consectetur. Aenean sit amet nulla ipsum. Morbi consectetur tristique orci dictum consequat. Duis consequat elementum lacinia. Sed in lacinia erat, ac mollis erat. Morbi convallis eget odio id tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc ac eros vitae mauris congue rhoncus et vitae dui.</p>
+
+  <p>Duis nisl risus, convallis sed elementum ac, ultricies sit amet neque. Suspendisse sit amet tortor vel metus facilisis lacinia. Etiam congue, sapien ut mattis tempor, lorem massa ullamcorper sem, sit amet suscipit nulla nisi ac arcu. Nulla sollicitudin ligula ut magna aliquet, eget porttitor orci condimentum. Vestibulum vitae iaculis justo. Fusce quis fermentum quam. Mauris sit amet dolor cursus, viverra ligula at, consequat urna. Vestibulum faucibus congue rhoncus. Pellentesque egestas leo dolor, et fermentum nisl bibendum sit amet. Aenean id porttitor tellus. Donec vitae nibh et leo dictum aliquet. Vivamus fringilla magna ac metus consequat euismod. Sed luctus vehicula nisl nec posuere. Pellentesque ut adipiscing mauris. Vivamus sit amet nisl ante. Maecenas sodales nibh a nulla feugiat, nec ullamcorper nisl semper.</p>
+  </section>
+
+  <script src="build/build.js"></script>
+
+  <script>
+    var selection = require('selection');
+
+    var sel = selection(document.querySelector('p'));
+    //sel.select(4, 7);
+    sel.select(4, 10)
+  </script>
+</body>
+</html>

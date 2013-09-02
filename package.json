@@ -1,0 +1,16 @@
+{
+  "name": "selection",
+  "repo": "ccomponent/selection",
+  "description": "DOM selection manipulation",
+  "version": "0.0.1",
+  "keywords": ["select", "selection", "range"],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "component": {
+    "scripts": {
+      "selection/index.js": "index.js"
+    }
+  }
+}
