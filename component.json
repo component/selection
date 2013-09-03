@@ -1,6 +1,6 @@
 {
   "name": "selection",
-  "repo": "ccomponent/selection",
+  "repo": "component/selection",
   "description": "DOM selection manipulation",
   "version": "0.0.1",
   "keywords": ["select", "selection", "range"],
