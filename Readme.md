@@ -8,7 +8,7 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install ccomponent/selection
+    $ component install component/selection
 
 ## Example
 
