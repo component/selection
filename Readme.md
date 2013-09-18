@@ -17,11 +17,20 @@ var selection = require('selection');
 
 var sel = selection(document.querySelector('p'));
 
+// empty?
+sel.empty(); // => true
+
 // range
 sel.select(4, 7);
 
 // move caret
-sel.select(10)
+sel.select(10);
+
+// empty?
+sel.empty(); // => true
+
+// "stringify"
+sel.toString();
 ```
 
 ## License
