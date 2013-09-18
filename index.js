@@ -45,3 +45,27 @@ Selection.prototype.select = function(a, b){
   sel.removeAllRanges();
   sel.addRange(range);
 };
+
+/**
+ * Check if the selection is empty.
+ *
+ * @return {Boolean}
+ * @api public
+ */
+
+Selection.prototype.empty = function(){
+  return this == '';
+};
+
+/**
+ * Get the selection as a string.
+ *
+ * @return {String}
+ * @api public
+ */
+
+Selection.prototype.toString = function(){
+  return window
+    .getSelection()
+    .toString();
+};
